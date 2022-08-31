@@ -1,0 +1,28 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}
+    Contacto
+{% endblock %}
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+{% block content %}
+    <div class="text bg-danger contenedor-titulo-contacto">
+        <h1 class="titulo-contacto">Contacto</h1>
+    </div>
+    <div class="d-flex justify-content-center align-items-center contenedor-contacto">
+        <div class="contenedor-img-contacto">
+            <img src="{% static 'shop/logo.png' %}" alt="logo-indumentaria">
+        </div>
+        <div>
+            <p>
+                <i class="fa-solid fa-location-dot text-danger"></i><span> Direccion</span>: Av. Le Vayer 1234
+            </p>
+            <p>
+                <i class="fa-brands fa-square-whatsapp text-danger"></i><span> Teléfono</span>: +541156714322
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope text-danger"></i><span> Email</span>: contacto@indumentaria-online.com
+            </p>
+        </div>
+    </div>
+{% endblock %}

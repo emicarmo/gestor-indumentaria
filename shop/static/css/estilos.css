@@ -1,0 +1,69 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.contenido-main{
+    margin-top: 30px;
+}
+
+.contenido-main h1{
+    padding: 30px;
+}
+
+.contenedor-titulo-catalogo{
+    padding: 20px;
+    margin-top: 80px;
+}
+
+.contenedor-titulo-catalogo h3, .contenedor-titulo-nueva-remera .titulo-nueva-remera, .contenedor-titulo-contacto .titulo-contacto{
+    margin-left: 200px;
+}
+
+.contenedor-formulario{
+    margin-top: 80px;
+}
+
+.formulario{
+    background-color: #dbdbdb;
+}
+
+.formulario input{
+    border-radius: 10px;
+    border: 1px solid #212529;
+}
+
+.formulario select{
+    border-radius: 10px;
+}
+
+.contenedor-contacto{
+    padding: 150px;
+    background-color: #dbdbdb;
+    margin-top: 80px;
+}
+
+.contenedor-contacto .contenedor-img-contacto img{
+    width: 400px;
+}
+
+.contenedor-contacto .contenedor-img-contacto{
+    margin: 60px;
+}
+
+span{
+    font-weight: 900;
+}
+
+.contenedor-footer{
+    background-color: #212529;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
